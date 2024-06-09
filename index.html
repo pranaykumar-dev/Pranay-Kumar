@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,600,700&display=swap" rel="stylesheet">
+    <title>dev server </title>
+  </head>
+  <body>
+     <header class="header conatiner">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about" >about</a>
+
+          </li>
+          <li>
+            <a class="header__link" href="#features" >features</a>
+
+          </li>
+          <li>
+            <a class="header__link" href="#contact" >contact</a>
+
+          </li> 
+          <li class="header__line"></li>
+          <li>
+            <button id="theme-toggle" class="header__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+              </svg>
+              
+
+               
+              
+              
+            </button>
+          </li>
+          <li >
+            <a class="header__resume but" href="#resume">resume</a>
+          </li>
+         
+            
+          
+        </ul>
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"  >
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+          
+        </button>
+ 
+      </nav>
+
+     </header>
+     <!-- start  -->
+      <div class="mobile-nav">
+        <nav>
+          <ul class="mobile-nav__menu">
+            <li> <a class="mobile-nav__link" href="#about">about</a> </li>
+            <li><a class="mobile-nav__link" href="#features"> featured</a></li> 
+            <li ><a class="mobile-nav__link" href="#contact">Contact</a></li>
+            <li class="mobile-nav__link-line"></li>
+            <li>
+              <button  id="theme-toggle" class="mobile-nav__sun">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                  <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                </svg>
+                
+  
+                 
+                
+                
+              </button>
+            
+             
+            <li class="mobile-nav__but but" href="#">Resume</li>
+
+
+          </ul>
+
+        </nav>
+      </div>
+    
+     <main>
+      <section class="hero conatiner">
+        <img class="hero__img" src="./pranay.png " alt="profile picture " />
+        <h2 class="hero__subtitle"> Hi, I'm Pranay Kumar</h2>
+        <h1 class="hero__title">FULL STACK <br />DEVELOPER.</h1>
+        <p class="hero__discription"> A passionate <strong>Full stack MERN </strong> developer / <strong>Full stack web</strong> developer 
+          specialized in building stunning websites/applictaions.
+
+        </p>
+        <a class="hero__button but" href="#">Reach out</a>
+
+
+
+
+      </section>
+      <section  id= "about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__discription">Hello there! I'm Pranay, a <strong>MERN / Full stack </strong> web developer based near Gundlupet
+            I wake up in the morning, grab a cup of coffee, open up my laptop 
+            and build things that live on the website all day, everyday.
+          </p>
+          <p class="about__discription">
+            people who know me say I'm obsessed, that's fair, I am very driven and 
+            love to learning new things.
+
+          </p>
+           
+          <hr class="about__hr" />
+          <h3 calss="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">JavaScript</li>
+              <li class="about__list">CSS</li>
+              <li class="about__list">HTML</li>
+              <li class="about__list">REactJS</li>
+              
+               
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">NextJS</li>
+              <li class="about__list">NodeJS</li>
+              <li class="about__list">MangoDB</li>
+              <li class="about__list" >TailwindCSS</li>
+            </ul>
+
+          </div>
+          
+
+
+
+        </div >
+        <div class="about__img-wrapper">
+          <img   class="about__img lazy loading"
+          src="https://fakeimg.pl/452x510"
+          data-src="./pranay.png" alt="picture" />
+           
+
+
+        </div>
+
+
+
+
+
+      </section>
+      <section id="features" class="featured container section ">
+        <h3 class="featured__subtitle">Featured projects</h3>
+        <div class="featured__wrapper">
+        <h2 class="featured__title">Prani14</h2>
+        <a class="featured__link" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.757a3.75 3.75 0 0 0 0-5.304Zm-7.389 4.267a.75.75 0 0 1 1-.353 5.25 5.25 0 0 1 1.449 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.757a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.354-1Z" clip-rule="evenodd" />
+          </svg>
+          
+        </a>
+      </div>
+        <p class="featured__discription">
+          JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.
+        
+        </p>
+        <div class="featured__info-conatiner">
+          <div >
+            <h3 class="featured__label">Tech Stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">unKnown</li>
+              <li class="featured__info"> unKnown</li>
+              <li class="featured__info">unKnown</li>
+              <li class="featured__info">unKnown</li>
+              <li class="featured__info">unKnown</li>
+              <li class="featured__info">unKnown</li>
+              <li class="featured__info">unKnown</li>
+  
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">
+              Project typr
+            </h3>
+            <p class="featured__info">Full stack</p>
+  
+  
+          </div>
+          <div>
+            <h3 class="featured__label">Time link </h3>
+            <p class="featured__info">Time</p>
+  
+          </div>
+        
+
+        </div>
+        <div class="featured__img-conatiner">
+          <div class="featured__img-wrapper">
+
+            <img class="lazy loading" 
+            src="https://fakeimg.pl/728x485"
+
+            data-src="/image.jpg" alt="image" />
+            
+          </div>
+          
+          <div class="featured__img-wrapper">
+            <img class="lazy loading"
+            src="https://fakeimg.pl/728x485"
+            
+            data-src="/image.jpg" alt="image" />
+            
+          </div >
+          <div class="featured__img-wrapper">
+            <img class="lazy loading"
+            src="https://fakeimg.pl/728x485"
+            
+            data-src="/image.jpg" alt="image" />
+            
+          </div>
+          <div class="featured__img-wrapper">
+            <img class="lazy loading" 
+            src="https://fakeimg.pl/728x485"
+            
+            data-src="/image.jpg" alt="image" />
+            
+          </div>
+          <div class="featured__img-wrapper">
+            <img class="lazy loading" 
+            src="https://fakeimg.pl/728x485"
+            
+            data-src="/image.jpg" alt="image" />
+            
+          </div>
+          <div class="featured__img-wrapper">  
+            <img class="lazy loading" 
+            src="https://fakeimg.pl/728x485"
+            
+            data-src="/image.jpg" alt="image" />
+            
+          </div>
+          <div class="featured__img-wrapper">
+            <img class="lazy loading" 
+            src="https://fakeimg.pl/728x485"
+            
+            data-src="/image.jpg" alt="image" />
+            
+          </div>
+          <div class="featured__img-wrapper">
+            <img class="lazy loading" 
+            src="https://fakeimg.pl/728x485"
+            
+            data-src="/image.jpg" alt="image" />
+            
+          </div>
+  
+
+        </div>
+        
+      
+        
+      </section>
+      <section class="work conatiner section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__discription">
+          Here are my project works. 
+        </p>
+        <div class="work__container">
+        <!-- project -->
+         <h3 class="work__project-title">Project1</h3>
+         <div class="work__img-wrapper work__image1"> 
+         <img class="lazy loading" 
+         src="https://fakeimg.pl/1799x1799"
+         data-src="pic.png " alt="image" /></div>
+         <div class="work__project work__content1">
+          <h3 class="work__project-subtitle">project1</h3>
+
+           <p class="work__project-discription1"> project details 1 </p>
+           <p class="work__project-discription2">project details </p>
+           <a class="but work__project-but" href="#">click</a>
+
+
+
+         </div>
+          <!-- project 2 -->
+          <h3 class="work__project-title">Project2</h3>
+          <div class="work__img-wrapper work__image2"> 
+          <img class="lazy loading" 
+          src="https://fakeimg.pl/1799x1799"
+          data-src="pic.png " alt="image" /></div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">project2</h3>
+
+            <p class="work__project-discription1"> project details 1 </p>
+            <p class="work__project-discription2">project details </p>
+            <a class="but work__project-but" href="#">click</a>
+
+          
+          </div>
+        </div> 
+
+
+      </section>
+      <section id="contact" class="contact conatiner section ">
+        <h2 class="content__title">Get In Contact</h2>
+        <p class="contact__discription">
+          Whether you are starting a project, have bussiness inquries or jus want
+          to say hi, my in box is always open so feel free to reach out and i will
+           get back to you as soon as possible.
+           </p>
+        <a class="contact__but but" href="mailto:goproplaygame@gmail.com" target="_blank">Reach Out</a>
+
+
+
+         
+      </section>
+ 
+     </main>
+     <footer class="footer container section">
+      <h3 class="footer__title">~Pranay Kumar~</h3>
+
+
+     </footer>
+
+    
+    
+    <script type="module" src="./src/main.js">
+      
+    </script>
+  </body>
+</html>
